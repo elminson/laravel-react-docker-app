@@ -63,6 +63,7 @@ http://127.0.0.1:8080/
 ## Tested
 The project was tested in a new droplet in Digital Ocean (https://digitalocean.com) following the "Installing and running
 " instructions. Droplet used <b>Ubuntu Docker 17.12.0~ce on 16.04 <b>
+    ![Screenshot_5](https://github.com/elminson/onerockwell/raw/master/Screenshot_6.png)
    
 
 ## Built With
