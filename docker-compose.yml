@@ -5,7 +5,7 @@ services:
   laravel:
     # we want to use the image which is build from our Dockerfile
     build: .
-    # apache is running on port 80 but we want to expose this to port 4000 on our local machine
+    # apache is running on port 80 but we want to expose this to port 8080 on our local machine
     ports:
       - "8080:80"
     # we depending on the mysql backend
