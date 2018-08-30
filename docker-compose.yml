@@ -1,0 +1,26 @@
+version: '2'
+# define all services
+services:
+  # our service is called laravel ;-)
+  laravel:
+    # we want to use the image which is build from our Dockerfile
+    build: .
+    # apache is running on port 80 but we want to expose this to port 4000 on our local machine
+    ports:
+      - "8080:80"
+    # we depending on the mysql backend
+    depends_on:
+      - mysql
+  mysql:
+    # we use the mysql base image, version 5.6.36
+    image: mysql:5.6.36
+    # we mount a datavolume to make sure we don't loose data
+    volumes:
+       - db_data:/var/lib/mysql
+    # setting some envvars to create the DB
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_DATABASE=laravel
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+volumes:
+    db_data:
