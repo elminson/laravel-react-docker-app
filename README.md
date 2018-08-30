@@ -61,7 +61,9 @@ The app will be accesible by the port 8080
 http://127.0.0.1:8080/
 ```
 ## Tested
-The project was tested in a new droplet in Digital Ocean (https://digitalocean.com). Droplet used <b>Ubuntu Docker 17.12.0~ce on 16.04 <b>
+The project was tested in a new droplet in Digital Ocean (https://digitalocean.com) following the "Installing and running
+" instructions. Droplet used <b>Ubuntu Docker 17.12.0~ce on 16.04 <b>
+   
 
 ## Built With
 
