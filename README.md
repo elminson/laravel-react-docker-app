@@ -34,11 +34,11 @@ Git <Br>
 Docker 
 
 
-Install Git runing this as root:
+Install Git following these instructions 
 ```
-# apt install git-all
+# https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 ```
-Install Docker following this instructions 
+Install Docker following these instructions 
 ```
 https://docs.docker.com/compose/install/
 ```
