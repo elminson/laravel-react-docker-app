@@ -47,11 +47,12 @@ https://docs.docker.com/compose/install/
 
 In order to run the project after install git and docker you will need
 1) clone this repository.
-2) Build the app.
-3) Start and runs the entire app.
+3) Build the app.
+4) Start and runs the entire app.
 
 ```
 git clone https://github.com/elminson/onerockwell.git
+cd onerockwell
 docker-compose build
 docker-compose up
 ```
