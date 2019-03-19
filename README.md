@@ -1,4 +1,4 @@
-# Project OneRockWell 
+# Project laravel-react-docker-app 
 
 The Goal:​ Show off your knowledge of how to set up and use open source tools across the
 stack: Set up a PHP-based full stack application using a popular MVC framework and a
@@ -51,8 +51,8 @@ In order to run the project after install git and docker you will need
 4) Start and runs the entire app.
 
 ```
-git clone https://github.com/elminson/onerockwell.git
-cd onerockwell
+git clone https://github.com/elminson/laravel-react-docker-app.git
+cd laravel-react-docker-app
 docker-compose build
 docker-compose up
 ```
