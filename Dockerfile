@@ -1,6 +1,9 @@
 #start with our base image (the foundation) - version 7.1.5
 FROM php:7.1.5-apache
 
+#adding repo to /etc/apt/sources.list
+RUN printf "deb http://archive.debian.org/debian/ jessie main\ndeb-src http://archive.debian.org/debian/ jessie main\ndeb http://security.debian.org jessie/updates main\ndeb-src http://security.debian.org jessie/updates main" > /etc/apt/sources.list
+
 #install all the system dependencies and enable PHP modules 
 RUN apt-get update && apt-get install -y \
       libicu-dev \
